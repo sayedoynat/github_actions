@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: print a welcome 
         run: echo "hello ya sayed ya gamed"
+      - name: Checkout repository
+        uses: actions/checkout@v6.1.0
+      - name: list repository files
+        run: ls -la 
+        
+        
