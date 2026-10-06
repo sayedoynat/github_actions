@@ -16,8 +16,8 @@ jobs:
   test:
     runs-on: ubuntu:latest
     steps:
-    - name: Checkout the code 
-      uses: actions/checkout@v6.1.0
-    
-    - name: Run test 
-      run: npm test
+      - name: Checkout the code 
+        uses: actions/checkout@v6.1.0
+      
+      - name: Run test 
+        run: npm test
