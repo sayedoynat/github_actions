@@ -1,3 +1,4 @@
+name: Push and PR Pipeline
 on: 
   push: 
     branches:
