@@ -1,0 +1,13 @@
+name: First workflows
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print a welcome 
+        run: echo "hello ya sayed ya gamed"
